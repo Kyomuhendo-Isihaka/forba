@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.header{
+    background-color: aqua;
+    border-radius: initial;
+    font-size: larger;
+    padding: 0%;
+}
+.header{
+    font-weight: bolder;
+    color: crimson;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.header :hover{
+    background-color: aqua;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+list{
+    flex: 1;
+    text-align: right;
+}
+
+list ul{
+    align-items: right;
+    font color:red;
+    font-weight: bold;
+}
+navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
